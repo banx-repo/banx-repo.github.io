@@ -19,7 +19,8 @@ const App = props => {
   const Post = lazy(() => import("./post.js"));
   const Contact = lazy(() => import("./contact.js"));
   const Search = lazy(() => import("./search.js"));
-  const Test = lazy(() => import("./test.js")); // Responsive
+  const Test = lazy(() => import("./test.js"));
+  const Cart = lazy(() => import("./components/cart.js")); // Responsive
 
   const xs = mq({
     maxWidth: 599
@@ -41,6 +42,10 @@ const App = props => {
   }); // Cart
 
   const [cart, addToCart] = useState([]);
+  const [openCart, setOpenCart] = useState(false);
+  useEffect(() => {
+    !openCart && cart.length > 0 ? setOpenCart(!openCart) : null;
+  }, [cart]);
   return /*#__PURE__*/React.createElement(Suspense, {
     fallback: /*#__PURE__*/React.createElement("span", {
       style: {
@@ -50,7 +55,11 @@ const App = props => {
         alignItems: "center"
       }
     }, "\u0110ang t\u1EA3i, \u0111\u1EE3i x\xEDu nha!!!")
-  }, /*#__PURE__*/React.createElement(Router, null, /*#__PURE__*/React.createElement(Header, null), (md || lg || xl) && /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {
+  }, /*#__PURE__*/React.createElement(Router, null, /*#__PURE__*/React.createElement(Header, {
+    cart: cart.length,
+    setOpenCart: setOpenCart,
+    openCart: openCart
+  }), (md || lg || xl) && /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {
     path: "/danh-cho-cho",
     children: /*#__PURE__*/React.createElement(Category, null)
   }), /*#__PURE__*/React.createElement(Route, {
@@ -71,11 +80,18 @@ const App = props => {
   }), /*#__PURE__*/React.createElement(Route, {
     exact: true,
     path: "/",
-    children: /*#__PURE__*/React.createElement(Home, null)
+    children: /*#__PURE__*/React.createElement(Home, {
+      cart: cart,
+      addToCart: addToCart
+    })
   }), /*#__PURE__*/React.createElement(Router, {
     path: "*",
     children: /*#__PURE__*/React.createElement("p", null, "Opps! Page not found!")
-  })), (xs || sm) && /*#__PURE__*/React.createElement(MobileNav, null)));
+  })), (xs || sm) && /*#__PURE__*/React.createElement(MobileNav, null), openCart && /*#__PURE__*/React.createElement(Cart, {
+    cart: cart,
+    setOpenCart: setOpenCart,
+    remove: addToCart
+  })));
 };
 
 ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("pety"));

@@ -84,6 +84,8 @@ const Category = props => {
   };
 
   const products = sort(filter(props.products)).slice(0, numOfProducts).map(item => /*#__PURE__*/React.createElement(Product, {
+    cart: props.cart,
+    addToCart: props.addToCart,
     key: item.id,
     product: item
   }));

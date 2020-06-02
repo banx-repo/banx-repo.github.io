@@ -46,11 +46,17 @@ const Home = props => {
     type
   }) => type === "danh-cho-meo");
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Banner, null), (md || lg || xl) && /*#__PURE__*/React.createElement(Service, null), /*#__PURE__*/React.createElement(Promo, {
+    cart: props.cart,
+    addToCart: props.addToCart,
     products: sale
   }), /*#__PURE__*/React.createElement(Category, {
+    cart: props.cart,
+    addToCart: props.addToCart,
     url: "/danh-cho-cho",
     products: dog
   }), /*#__PURE__*/React.createElement(Category, {
+    cart: props.cart,
+    addToCart: props.addToCart,
     url: "/danh-cho-meo",
     products: cat
   }), /*#__PURE__*/React.createElement(Blog, null), /*#__PURE__*/React.createElement(Email, null), /*#__PURE__*/React.createElement(Footer, null));

@@ -59,6 +59,8 @@ const Promo = props => {
   };
 
   const products = props.products.map(product => /*#__PURE__*/React.createElement(Product, {
+    cart: props.cart,
+    addToCart: props.addToCart,
     product: product,
     key: product.id
   }));

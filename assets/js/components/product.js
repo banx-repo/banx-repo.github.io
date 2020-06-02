@@ -30,7 +30,8 @@ const Product = props => {
     className: "product-price"
   }, sale ? sale.toLocaleString() : price.toLocaleString(), " \u0111", " "), /*#__PURE__*/React.createElement("button", {
     type: "button",
-    className: "add-to-cart"
+    className: "add-to-cart",
+    onClick: e => props.addToCart(props.cart.concat(props.product))
   }, "Mua ngay")));
 };
 

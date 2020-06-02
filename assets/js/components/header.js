@@ -43,13 +43,14 @@ const SearchForm = props => {
 
 const Cart = props => {
   return /*#__PURE__*/React.createElement("div", {
-    className: "app-cart"
+    className: "app-cart",
+    onClick: e => props.setOpenCart(!props.openCart)
   }, /*#__PURE__*/React.createElement("div", {
     className: "cart-icon"
   }, /*#__PURE__*/React.createElement("img", {
     src: "assets/img/bag.svg",
     alt: ""
-  }), /*#__PURE__*/React.createElement("span", null, "0")), /*#__PURE__*/React.createElement("p", null, "Gi\u1ECF h\xE0ng"));
+  }), /*#__PURE__*/React.createElement("span", null, props.number)), /*#__PURE__*/React.createElement("p", null, "Gi\u1ECF h\xE0ng"));
 };
 
 const Header = props => {
@@ -70,7 +71,11 @@ const Header = props => {
   }, /*#__PURE__*/React.createElement("img", {
     src: "./assets/img/logo.png",
     alt: "Pety - Si\xEAu th\u1ECB th\xFA c\u01B0ng"
-  })), /*#__PURE__*/React.createElement(SearchForm, null), !(xs || sm) && /*#__PURE__*/React.createElement(Cart, null)));
+  })), /*#__PURE__*/React.createElement(SearchForm, null), !(xs || sm) && /*#__PURE__*/React.createElement(Cart, {
+    number: props.cart,
+    setOpenCart: props.setOpenCart,
+    openCart: props.openCart
+  })));
 };
 
 export default Header;
