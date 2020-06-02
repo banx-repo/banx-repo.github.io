@@ -1,14 +1,21 @@
 const {
-  useState
+  useState,
+  useRef
 } = React;
 const Link = ReactRouterDOM.Link;
 
 const Email = props => {
   const [popup, setPopup] = useState(false);
+  const el = useRef(null);
 
   const handleSubmit = e => {
     e.preventDefault();
     setPopup(!popup);
+  };
+
+  const handleClick = () => {
+    setPopup(!popup);
+    el.current.value = "";
   };
 
   return /*#__PURE__*/React.createElement("section", {
@@ -27,7 +34,8 @@ const Email = props => {
     name: "email",
     id: "email",
     required: true,
-    placeholder: "Email c\u1EE7a b\u1EA1n"
+    placeholder: "Email c\u1EE7a b\u1EA1n",
+    ref: el
   }), /*#__PURE__*/React.createElement("button", {
     type: "submit"
   }, "\u0110\u0103ng k\xFD"))), popup && /*#__PURE__*/React.createElement("div", {
@@ -41,7 +49,7 @@ const Email = props => {
     className: "pety"
   }, "Pet", /*#__PURE__*/React.createElement("i", null, "y")), " ", ":)"), /*#__PURE__*/React.createElement("p", null, "Ch\xFAng t\xF4i s\u1EBD spam li\xEAn t\u1EE5c \u0111\xF3 :D"), /*#__PURE__*/React.createElement(Link, {
     to: "/",
-    onClick: e => setPopup(!popup)
+    onClick: e => handleClick()
   }, "Ti\u1EBFp t\u1EE5c kh\xE1m ph\xE1", " ", /*#__PURE__*/React.createElement("span", {
     className: "pety"
   }, "Pet", /*#__PURE__*/React.createElement("i", null, "y"))))));

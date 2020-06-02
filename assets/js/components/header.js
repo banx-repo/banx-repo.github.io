@@ -31,6 +31,7 @@ const SearchForm = props => {
     size: "10",
     placeholder: "B\u1EA1n mu\u1ED1n t\xECm g\xEC?",
     value: product,
+    required: true,
     onChange: e => setProduct(e.target.value)
   }), /*#__PURE__*/React.createElement("button", {
     className: "search-button",

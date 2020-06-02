@@ -11,6 +11,7 @@ import Nav from "./components/nav.js";
 import MobileNav from "./components/mobilenav.js";
 import Home from "./home.js";
 import Category from "./category.js";
+import ProductDetails from "./productdetails.js";
 import Post from "./post.js";
 import Contact from "./contact.js";
 import Search from "./search.js";
@@ -47,7 +48,13 @@ const App = props => {
     cart: cart.length,
     setOpenCart: setOpenCart,
     openCart: openCart
-  }), (md || lg || xl) && /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {
+  }), (md || lg || xl) && /*#__PURE__*/React.createElement(Nav, null), (xs || sm) && /*#__PURE__*/React.createElement(MobileNav, {
+    setOpenCart: setOpenCart
+  }), openCart && /*#__PURE__*/React.createElement(Cart, {
+    cart: cart,
+    setOpenCart: setOpenCart,
+    remove: addToCart
+  }), /*#__PURE__*/React.createElement(Switch, null, /*#__PURE__*/React.createElement(Route, {
     path: "/danh-cho-cho",
     children: /*#__PURE__*/React.createElement(Category, null)
   }), /*#__PURE__*/React.createElement(Route, {
@@ -66,6 +73,9 @@ const App = props => {
     path: "/test",
     children: /*#__PURE__*/React.createElement(Test, null)
   }), /*#__PURE__*/React.createElement(Route, {
+    path: "/san-pham",
+    children: /*#__PURE__*/React.createElement(ProductDetails, null)
+  }), /*#__PURE__*/React.createElement(Route, {
     exact: true,
     path: "/",
     children: /*#__PURE__*/React.createElement(Home, {
@@ -75,11 +85,7 @@ const App = props => {
   }), /*#__PURE__*/React.createElement(Router, {
     path: "*",
     children: /*#__PURE__*/React.createElement("p", null, "Opps! Page not found!")
-  })), (xs || sm) && /*#__PURE__*/React.createElement(MobileNav, null), openCart && /*#__PURE__*/React.createElement(Cart, {
-    cart: cart,
-    setOpenCart: setOpenCart,
-    remove: addToCart
-  }));
+  })));
 };
 
 ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("pety"));
