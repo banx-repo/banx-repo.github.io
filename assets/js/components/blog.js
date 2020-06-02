@@ -86,10 +86,12 @@ const Blog = props => {
     className: "blog-list"
   }, new Array(numOfPosts).fill(null).map((v, i) => /*#__PURE__*/React.createElement(Post, {
     key: i
-  }))), /*#__PURE__*/React.createElement(Link, {
+  }))), /*#__PURE__*/React.createElement("p", {
+    className: "more"
+  }, /*#__PURE__*/React.createElement(Link, {
     to: "/bai-viet",
     className: "button--more"
-  }, "Xem th\xEAm")));
+  }, "Xem th\xEAm"))));
 };
 
 export default Blog;

@@ -1,27 +1,24 @@
 const {
   useState,
-  useEffect,
-  Suspense,
-  lazy
+  useEffect
 } = React;
 const Router = ReactRouterDOM.BrowserRouter;
 const Route = ReactRouterDOM.Route;
 const Switch = ReactRouterDOM.Switch;
 const mq = MediaQuery.useMediaQuery;
+import Header from "./components/header.js";
+import Nav from "./components/nav.js";
+import MobileNav from "./components/mobilenav.js";
+import Home from "./home.js";
+import Category from "./category.js";
+import Post from "./post.js";
+import Contact from "./contact.js";
+import Search from "./search.js";
+import Cart from "./components/cart.js";
+import Test from "./test.js";
 
 const App = props => {
-  // Load Components, Pages
-  const Header = lazy(() => import("./components/header.js"));
-  const Nav = lazy(() => import("./components/nav.js"));
-  const MobileNav = lazy(() => import("./components/mobilenav.js"));
-  const Home = lazy(() => import("./home.js"));
-  const Category = lazy(() => import("./category.js"));
-  const Post = lazy(() => import("./post.js"));
-  const Contact = lazy(() => import("./contact.js"));
-  const Search = lazy(() => import("./search.js"));
-  const Test = lazy(() => import("./test.js"));
-  const Cart = lazy(() => import("./components/cart.js")); // Responsive
-
+  // Responsive
   const xs = mq({
     maxWidth: 599
   });
@@ -46,16 +43,7 @@ const App = props => {
   useEffect(() => {
     !openCart && cart.length > 0 ? setOpenCart(!openCart) : null;
   }, [cart]);
-  return /*#__PURE__*/React.createElement(Suspense, {
-    fallback: /*#__PURE__*/React.createElement("span", {
-      style: {
-        display: "flex",
-        height: "100vh",
-        justifyContent: "center",
-        alignItems: "center"
-      }
-    }, "\u0110ang t\u1EA3i, \u0111\u1EE3i x\xEDu nha!!!")
-  }, /*#__PURE__*/React.createElement(Router, null, /*#__PURE__*/React.createElement(Header, {
+  return /*#__PURE__*/React.createElement(Router, null, /*#__PURE__*/React.createElement(Header, {
     cart: cart.length,
     setOpenCart: setOpenCart,
     openCart: openCart
@@ -91,7 +79,7 @@ const App = props => {
     cart: cart,
     setOpenCart: setOpenCart,
     remove: addToCart
-  })));
+  }));
 };
 
 ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("pety"));

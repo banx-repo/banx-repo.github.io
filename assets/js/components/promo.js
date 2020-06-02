@@ -5,48 +5,50 @@ const {
 import Product from "./product.js";
 
 const Promo = props => {
+  const setting = {
+    arrows: false,
+    dots: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2500,
+    responsive: [{
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false
+      }
+    }, {
+      breakpoint: 999,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false
+      }
+    }, {
+      breakpoint: 799,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false
+      }
+    }, {
+      breakpoint: 599,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false
+      }
+    }]
+  };
   useEffect(() => {
-    $(".slider").slick({
-      arrows: false,
-      dots: false,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 500,
-      autoplaySpeed: 2500,
-      responsive: [{
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: false
-        }
-      }, {
-        breakpoint: 999,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: false
-        }
-      }, {
-        breakpoint: 799,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: false
-        }
-      }, {
-        breakpoint: 599,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: false
-        }
-      }]
+    $(".slider").not(".slick-initialized").slick({ ...setting
     });
   });
 

@@ -1,6 +1,7 @@
 const {
   useState
 } = React;
+const Link = ReactRouterDOM.Link;
 
 const Email = props => {
   const [popup, setPopup] = useState(false);
@@ -38,8 +39,9 @@ const Email = props => {
     alt: ""
   }), /*#__PURE__*/React.createElement("p", null, "C\xE1m \u01A1n b\u1EA1n \u0111\xE3 \u0111\u0103ng k\xFD nh\u1EADn th\xF4ng b\xE1o t\u1EEB", " ", /*#__PURE__*/React.createElement("span", {
     className: "pety"
-  }, "Pet", /*#__PURE__*/React.createElement("i", null, "y")), " ", ":)"), /*#__PURE__*/React.createElement("p", null, "Ch\xFAng t\xF4i s\u1EBD spam li\xEAn t\u1EE5c \u0111\xF3 :D"), /*#__PURE__*/React.createElement("a", {
-    href: "index.html"
+  }, "Pet", /*#__PURE__*/React.createElement("i", null, "y")), " ", ":)"), /*#__PURE__*/React.createElement("p", null, "Ch\xFAng t\xF4i s\u1EBD spam li\xEAn t\u1EE5c \u0111\xF3 :D"), /*#__PURE__*/React.createElement(Link, {
+    to: "/",
+    onClick: e => setPopup(!popup)
   }, "Ti\u1EBFp t\u1EE5c kh\xE1m ph\xE1", " ", /*#__PURE__*/React.createElement("span", {
     className: "pety"
   }, "Pet", /*#__PURE__*/React.createElement("i", null, "y"))))));
