@@ -10,13 +10,13 @@ const Post = props => {
     className: "post"
   }, /*#__PURE__*/React.createElement("div", {
     className: "header"
-  }, /*#__PURE__*/React.createElement("h4", {
+  }, /*#__PURE__*/React.createElement("p", {
+    className: "time"
+  }, "24/05/2020 08:12:23"), /*#__PURE__*/React.createElement("h4", {
     className: "title"
   }, /*#__PURE__*/React.createElement(Link, {
-    to: "/bai-viet"
-  }, "Chia s\u1EBB b\xED quy\u1EBFt ch\u0103m s\xF3c th\xFA c\u01B0ng t\u1ED1t nh\u1EA5t trong m\xF9a C\xF4vy")), /*#__PURE__*/React.createElement("p", {
-    className: "time"
-  }, "24/05/2020 08:12:23")), /*#__PURE__*/React.createElement("div", {
+    to: "/bai-viet/chia-se-bi-quyet-cham-soc-thu-cung-tot-nhat-trong-mua-covy"
+  }, "Chia s\u1EBB b\xED quy\u1EBFt ch\u0103m s\xF3c th\xFA c\u01B0ng t\u1ED1t nh\u1EA5t trong m\xF9a C\xF4vy"))), /*#__PURE__*/React.createElement("div", {
     className: "description"
   }, /*#__PURE__*/React.createElement("div", {
     className: "img"
@@ -28,7 +28,7 @@ const Post = props => {
   }, /*#__PURE__*/React.createElement("p", {
     className: "sort-details"
   }, "C\xF9ng Pety t\xECm hi\u1EC3u nh\u1EEFng b\xED quy\u1EBFt ch\u0103m s\xF3c th\xFA c\u01B0ng an to\xE0n m\xF9a C\xF4vy nh\xE9"), /*#__PURE__*/React.createElement(Link, {
-    to: "/bai-viet",
+    to: "/bai-viet/chia-se-bi-quyet-cham-soc-thu-cung-tot-nhat-trong-mua-covy",
     className: "link__more"
   }, "Xem chi ti\u1EBFt ", /*#__PURE__*/React.createElement("span", null, "\u2192")))));
 };

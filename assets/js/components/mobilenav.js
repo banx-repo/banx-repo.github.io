@@ -1,5 +1,6 @@
 const {
-  useState
+  useState,
+  useEffect
 } = React;
 const {
   Link
@@ -7,6 +8,16 @@ const {
 
 const MobileNav = props => {
   const [menu, setMenu] = useState(false);
+  const menuRef = React.createRef();
+
+  const handleMenuClickOutside = e => {
+    if (menu && !menuRef.current.contains(e.target)) setMenu(!menu);
+  };
+
+  useEffect(() => {
+    window.addEventListener("click", handleMenuClickOutside);
+    return () => window.removeEventListener("click", handleMenuClickOutside);
+  });
   return /*#__PURE__*/React.createElement("nav", {
     className: "app__mobile__nav"
   }, /*#__PURE__*/React.createElement("ul", {
@@ -34,22 +45,22 @@ const MobileNav = props => {
   }), /*#__PURE__*/React.createElement("span", null, "G\u1ECDi ngay"))), /*#__PURE__*/React.createElement("li", {
     className: "menu__item",
     onClick: e => props.setOpenCart(true)
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "img"
   }, /*#__PURE__*/React.createElement("img", {
     src: "assets/img/outline-bag.svg",
     alt: ""
-  }), /*#__PURE__*/React.createElement("span", null, "Gi\u1ECF h\xE0ng")), /*#__PURE__*/React.createElement("li", {
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "num__of__products__in__cart"
+  }, props.numOfProductsInCart)), /*#__PURE__*/React.createElement("span", null, "Gi\u1ECF h\xE0ng")), /*#__PURE__*/React.createElement("li", {
     className: "menu__item"
   }, /*#__PURE__*/React.createElement("img", {
     src: "assets/img/user.svg",
     alt: ""
   }), /*#__PURE__*/React.createElement("span", null, "T\xE0i kho\u1EA3n"))), menu && /*#__PURE__*/React.createElement("ul", {
-    className: "mobile__menu animate__animated animate__slideInLeft"
+    className: "mobile__menu animate__animated animate__slideInLeft",
+    ref: menuRef
   }, /*#__PURE__*/React.createElement("li", {
-    className: "mobile__menu__item"
-  }, /*#__PURE__*/React.createElement(Link, {
-    to: "/",
-    onClick: e => setMenu(!menu)
-  }, "Trang ch\u1EE7")), /*#__PURE__*/React.createElement("li", {
     className: "mobile__menu__item"
   }, /*#__PURE__*/React.createElement(Link, {
     to: "/danh-cho-cho",

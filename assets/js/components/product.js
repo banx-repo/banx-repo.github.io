@@ -5,6 +5,7 @@ const Product = props => {
     id,
     name,
     url,
+    type,
     sale,
     price,
     percent
@@ -14,7 +15,7 @@ const Product = props => {
   }, /*#__PURE__*/React.createElement("div", {
     className: "product-img"
   }, /*#__PURE__*/React.createElement(Link, {
-    to: `/san-pham/${url}`
+    to: `/${type}/${url}`
   }, /*#__PURE__*/React.createElement("img", {
     src: `assets/img/product/${id} 200x200.png`,
     alt: name
@@ -23,7 +24,7 @@ const Product = props => {
   }, /*#__PURE__*/React.createElement("h3", {
     className: "product-name"
   }, /*#__PURE__*/React.createElement(Link, {
-    to: `/san-pham/${url}`
+    to: `/${type}/${url}`
   }, sale ? /*#__PURE__*/React.createElement("span", {
     className: "product-tag"
   }, "\u2212", percent, "%") : "", name)), /*#__PURE__*/React.createElement("p", {
@@ -31,7 +32,7 @@ const Product = props => {
   }, sale ? sale.toLocaleString() : price.toLocaleString(), " \u0111", " "), /*#__PURE__*/React.createElement("button", {
     type: "button",
     className: "add-to-cart",
-    onClick: e => props.addToCart(props.cart.concat(props.product))
+    onClick: e => props.addToCart(props.product)
   }, "Mua ngay")));
 };
 

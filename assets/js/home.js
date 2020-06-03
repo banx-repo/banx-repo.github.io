@@ -7,8 +7,6 @@ import Service from "./components/service.js";
 import Promo from "./components/promo.js";
 import Category from "./components/category.js";
 import Blog from "./components/blog.js";
-import Email from "./components/email.js";
-import Footer from "./components/footer.js";
 const mq = MediaQuery.useMediaQuery;
 
 const Home = props => {
@@ -59,7 +57,7 @@ const Home = props => {
     addToCart: props.addToCart,
     url: "/danh-cho-meo",
     products: cat
-  }), /*#__PURE__*/React.createElement(Blog, null), /*#__PURE__*/React.createElement(Email, null), /*#__PURE__*/React.createElement(Footer, null));
+  }), /*#__PURE__*/React.createElement(Blog, null));
 };
 
 export default Home;

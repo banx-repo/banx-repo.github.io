@@ -75,7 +75,7 @@ const Promo = props => {
   }, /*#__PURE__*/React.createElement("h3", null, /*#__PURE__*/React.createElement("img", {
     src: "assets/img/promo.svg",
     alt: ""
-  }), "Khuy\u1EBFn m\xE3i hot")), /*#__PURE__*/React.createElement("hr", null), /*#__PURE__*/React.createElement("div", {
+  }), "Khuy\u1EBFn m\xE3i hot")), /*#__PURE__*/React.createElement("div", {
     className: "product-list"
   }, /*#__PURE__*/React.createElement("button", {
     className: "prev",
