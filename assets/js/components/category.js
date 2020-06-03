@@ -97,13 +97,21 @@ const Category = props => {
     className: "section-header"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "heading"
-  }, "# ", props.url === "/danh-cho-cho" ? "Dành cho chó" : "Dành cho mèo"), /*#__PURE__*/React.createElement("p", null, "\u01AFu ti\xEAn xem:", " ", /*#__PURE__*/React.createElement(Select, {
+  }, props.url === "/danh-cho-cho" ? /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("img", {
+    src: "assets/img/dog-face.svg"
+  }), "D\xE0nh cho ch\xF3") : /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("img", {
+    src: "assets/img/cat-face.svg",
+    alt: ""
+  }), "D\xE0nh cho m\xE8o")), /*#__PURE__*/React.createElement("div", {
+    className: "action"
+  }, /*#__PURE__*/React.createElement("p", null, "\u01AFu ti\xEAn xem:", " ", /*#__PURE__*/React.createElement(Select, {
     options: options,
     selected: selected,
     handleChange: setSelected
   })), /*#__PURE__*/React.createElement(Link, {
-    to: props.url
-  }, "Xem t\u1EA5t c\u1EA3 \u2192")), /*#__PURE__*/React.createElement("div", {
+    to: props.url,
+    className: "link__more"
+  }, "Xem t\u1EA5t c\u1EA3 ", /*#__PURE__*/React.createElement("span", null, "\u2192")))), /*#__PURE__*/React.createElement("div", {
     className: "section-main"
   }, /*#__PURE__*/React.createElement("ul", {
     className: "section-filter"

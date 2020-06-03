@@ -29,7 +29,7 @@ const SearchForm = props => {
     name: "san-pham",
     id: "text",
     size: "10",
-    placeholder: "B\u1EA1n mu\u1ED1n t\xECm g\xEC?",
+    placeholder: "T\xECm s\u1EA3n ph\u1EA9m b\u1EA1n quan t\xE2m",
     value: product,
     required: true,
     onChange: e => setProduct(e.target.value)
@@ -49,7 +49,7 @@ const Cart = props => {
   }, /*#__PURE__*/React.createElement("div", {
     className: "cart-icon"
   }, /*#__PURE__*/React.createElement("img", {
-    src: "assets/img/bag.svg",
+    src: "assets/img/cart.svg",
     alt: ""
   }), /*#__PURE__*/React.createElement("span", null, props.number)), /*#__PURE__*/React.createElement("p", null, "Gi\u1ECF h\xE0ng"));
 };
@@ -66,7 +66,7 @@ const Header = props => {
     className: "app-header"
   }, /*#__PURE__*/React.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/React.createElement(Link, {
+  }, !(xs || sm) && /*#__PURE__*/React.createElement(Link, {
     className: "app-logo",
     to: "/"
   }, /*#__PURE__*/React.createElement("img", {

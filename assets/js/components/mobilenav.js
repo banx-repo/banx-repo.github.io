@@ -12,6 +12,13 @@ const MobileNav = props => {
   }, /*#__PURE__*/React.createElement("ul", {
     className: "menu"
   }, /*#__PURE__*/React.createElement("li", {
+    className: "menu__item"
+  }, /*#__PURE__*/React.createElement(Link, {
+    to: "/"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: "assets/img/logo.svg",
+    alt: ""
+  }), /*#__PURE__*/React.createElement("span", null, "Trang ch\u1EE7"))), /*#__PURE__*/React.createElement("li", {
     className: "menu__item",
     onClick: e => setMenu(!menu)
   }, /*#__PURE__*/React.createElement("img", {

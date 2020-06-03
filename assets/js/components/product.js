@@ -14,7 +14,7 @@ const Product = props => {
   }, /*#__PURE__*/React.createElement("div", {
     className: "product-img"
   }, /*#__PURE__*/React.createElement(Link, {
-    to: `/san-pham?id=${url}`
+    to: `/san-pham/${url}`
   }, /*#__PURE__*/React.createElement("img", {
     src: `assets/img/product/${id} 200x200.png`,
     alt: name
@@ -23,7 +23,7 @@ const Product = props => {
   }, /*#__PURE__*/React.createElement("h3", {
     className: "product-name"
   }, /*#__PURE__*/React.createElement(Link, {
-    to: `/san-pham?id=${url}`
+    to: `/san-pham/${url}`
   }, sale ? /*#__PURE__*/React.createElement("span", {
     className: "product-tag"
   }, "\u2212", percent, "%") : "", name)), /*#__PURE__*/React.createElement("p", {

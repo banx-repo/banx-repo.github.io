@@ -1,11 +1,15 @@
 const {
   Link,
   useQuery,
-  useLocation
+  useLocation,
+  useParams
 } = ReactRouterDOM;
 
 const ProductDetails = props => {
-  return /*#__PURE__*/React.createElement("h1", null, "Trang s\u1EA3n ph\u1EA9m");
+  const {
+    url
+  } = useParams();
+  return /*#__PURE__*/React.createElement("h1", null, "S\u1EA3n ph\u1EA9m: ", url);
 };
 
 export default ProductDetails;

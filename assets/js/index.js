@@ -44,6 +44,11 @@ const App = props => {
   useEffect(() => {
     !openCart && cart.length > 0 ? setOpenCart(!openCart) : null;
   }, [cart]);
+
+  const addProductToCart = product => {
+    if (cart.map(i => i.product.id).includes(product.id)) {}
+  };
+
   return /*#__PURE__*/React.createElement(Router, null, /*#__PURE__*/React.createElement(Header, {
     cart: cart.length,
     setOpenCart: setOpenCart,
@@ -73,7 +78,7 @@ const App = props => {
     path: "/test",
     children: /*#__PURE__*/React.createElement(Test, null)
   }), /*#__PURE__*/React.createElement(Route, {
-    path: "/san-pham",
+    path: "/san-pham/:url",
     children: /*#__PURE__*/React.createElement(ProductDetails, null)
   }), /*#__PURE__*/React.createElement(Route, {
     exact: true,

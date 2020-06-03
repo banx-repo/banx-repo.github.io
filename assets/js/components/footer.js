@@ -7,24 +7,21 @@ const Footer = props => {
     className: "container"
   }, /*#__PURE__*/React.createElement("div", {
     className: "fanpage"
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React.createElement("h4", {
     className: "heading"
-  }, "Fanpage"), /*#__PURE__*/React.createElement("div", {
-    class: "fb-page",
-    "data-href": "https://www.facebook.com/facebook",
-    "data-tabs": "",
-    "data-width": "300",
-    "data-height": "200",
-    "data-small-header": "false",
-    "data-adapt-container-width": "true",
-    "data-hide-cover": "false",
-    "data-show-facepile": "true"
-  }, /*#__PURE__*/React.createElement("blockquote", {
-    cite: "https://www.facebook.com/facebook",
-    class: "fb-xfbml-parse-ignore"
-  }, /*#__PURE__*/React.createElement("a", {
-    href: "https://www.facebook.com/facebook"
-  }, "Facebook")))), /*#__PURE__*/React.createElement("div", {
+  }, "Fanpage"), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
+    href: "https://facebook.com",
+    target: "_blank"
+  }, "Facebook")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
+    href: "https://shopee.vn",
+    target: "_blank"
+  }, "Shopee")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
+    href: "https://tiki.vn",
+    target: "_blank"
+  }, "Tiki")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
+    href: "https://lazada.vn",
+    target: "_blank"
+  }, "Lazada")))), /*#__PURE__*/React.createElement("div", {
     className: "rules"
   }, /*#__PURE__*/React.createElement("p", {
     className: "heading"
@@ -45,7 +42,7 @@ const Footer = props => {
   }, /*#__PURE__*/React.createElement("iframe", {
     src: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14894.285133003395!2d105.77032909999998!3d21.04983335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1591041210136!5m2!1svi!2s",
     width: "100%",
-    height: "",
+    height: "300px",
     frameBorder: "0",
     style: {
       border: "0"
