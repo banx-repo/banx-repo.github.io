@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Thức ăn khô cho mèo Catseye Hàn Quốc (1kg)",
-    "url": "thuc-an-kho-cho-meo-catseye-han-quoc-1kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catseye-han-quoc-1kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Thức ăn hạt mềm cho chó giống cho nhỏ Zenith Small Bread 1,2kg",
-    "url": "thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
+    "url": "/danh-cho-cho/thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "name": "Sữa bột cho chó Dr.Kyan Predogen 400g",
-    "url": "sua-bot-cho-cho-dr.kyan-predogen-400g",
+    "url": "/danh-cho-cho/sua-bot-cho-cho-dr.kyan-predogen-400g",
     "type": "danh-cho-cho",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "name": "Balo phi hành gia",
-    "url": "balo-phi-hanh-gia",
+    "url": "/danh-cho-meo/balo-phi-hanh-gia",
     "type": "danh-cho-meo",
     "category": "chuong-tui-long-van-chuyen",
     "subCategory": "balo-tui-van-chuyen",
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "name": "Thức ăn khô cho mèo Catsrang Hàn Quốc 5kg",
-    "url": "thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "name": "Khay vệ sinh cho chó",
-    "url": "khay-ve-sinh-cho-cho",
+    "url": "/danh-cho-cho/khay-ve-sinh-cho-cho",
     "type": "danh-cho-cho",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "name": "Thảm lót vệ sinh nhựa dẻo",
-    "url": "tham-lot-ve-sinh-nhua-deo",
+    "url": "/danh-cho-meo/tham-lot-ve-sinh-nhua-deo",
     "type": "danh-cho-meo",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "name": "Gel dinh dưỡng Nutri-Plus 100g",
-    "url": "gel-dinh-duong-nutri-plus-100g",
+    "url": "/danh-cho-meo/gel-dinh-duong-nutri-plus-100g",
     "type": "danh-cho-meo",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "name": "Thức ăn khô cho cho Catseye Hàn Quốc (1kg)",
-    "url": "thuc-an-kho-cho-cho-catseye-han-quoc-1kg",
+    "url": "/danh-cho-cho/thuc-an-kho-cho-cho-catseye-han-quoc-1kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "name": "Thức ăn hạt mềm cho chó giống cho nhỏ Zenith Small Bread 1,2kg",
-    "url": "thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
+    "url": "/danh-cho-cho/thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "name": "Sữa bột cho mèo Dr.Kyan Precaten 400g",
-    "url": "sua-bot-cho-meo-dr.kyan-precaten-400g",
+    "url": "/danh-cho-meo/sua-bot-cho-meo-dr.kyan-precaten-400g",
     "type": "danh-cho-meo",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -145,7 +145,7 @@
   {
     "id": 12,
     "name": "Balo phi hành gia",
-    "url": "balo-phi-hanh-gia",
+    "url": "/danh-cho-cho/balo-phi-hanh-gia",
     "type": "danh-cho-cho",
     "category": "chuong-tui-long-van-chuyen",
     "subCategory": "balo-tui-van-chuyen",
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "name": "Thức ăn khô cho mèo Catsrang Hàn Quốc 5kg",
-    "url": "thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "name": "Khay vệ sinh cho mèo",
-    "url": "khay-ve-sinh-cho-meo",
+    "url": "/danh-cho-meo/khay-ve-sinh-cho-meo",
     "type": "danh-cho-meo",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -184,7 +184,7 @@
   {
     "id": 15,
     "name": "Thảm lót vệ sinh nhựa dẻo",
-    "url": "tham-lot-ve-sinh-nhua-deo",
+    "url": "/danh-cho-cho/tham-lot-ve-sinh-nhua-deo",
     "type": "danh-cho-cho",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -197,7 +197,7 @@
   {
     "id": 16,
     "name": "Gel dinh dưỡng Nutri-Plus 100g",
-    "url": "gel-dinh-duong-nutri-plus-100g",
+    "url": "/danh-cho-cho/gel-dinh-duong-nutri-plus-100g",
     "type": "danh-cho-cho",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -210,7 +210,7 @@
   {
     "id": 17,
     "name": "Thức ăn khô cho mèo Catseye Hàn Quốc (1kg)",
-    "url": "thuc-an-kho-cho-meo-catseye-han-quoc-1kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catseye-han-quoc-1kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -223,7 +223,7 @@
   {
     "id": 18,
     "name": "Thức ăn hạt mềm cho chó giống cho nhỏ Zenith Small Bread 1,2kg",
-    "url": "thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
+    "url": "/danh-cho-cho/thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -236,7 +236,7 @@
   {
     "id": 19,
     "name": "Sữa bột cho chó Dr.Kyan Predogen 400g",
-    "url": "sua-bot-cho-cho-dr.kyan-predogen-400g",
+    "url": "/danh-cho-cho/sua-bot-cho-cho-dr.kyan-predogen-400g",
     "type": "danh-cho-cho",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -249,7 +249,7 @@
   {
     "id": 20,
     "name": "Balo phi hành gia",
-    "url": "balo-phi-hanh-gia",
+    "url": "/danh-cho-meo/balo-phi-hanh-gia",
     "type": "danh-cho-meo",
     "category": "chuong-tui-long-van-chuyen",
     "subCategory": "balo-tui-van-chuyen",
@@ -262,7 +262,7 @@
   {
     "id": 21,
     "name": "Thức ăn khô cho mèo Catsrang Hàn Quốc 5kg",
-    "url": "thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -275,7 +275,7 @@
   {
     "id": 22,
     "name": "Khay vệ sinh cho chó",
-    "url": "khay-ve-sinh-cho-cho",
+    "url": "/danh-cho-cho/khay-ve-sinh-cho-cho",
     "type": "danh-cho-cho",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "name": "Thảm lót vệ sinh nhựa dẻo",
-    "url": "tham-lot-ve-sinh-nhua-deo",
+    "url": "/danh-cho-meo/tham-lot-ve-sinh-nhua-deo",
     "type": "danh-cho-meo",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "name": "Gel dinh dưỡng Nutri-Plus 100g",
-    "url": "gel-dinh-duong-nutri-plus-100g",
+    "url": "/danh-cho-meo/gel-dinh-duong-nutri-plus-100g",
     "type": "danh-cho-meo",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "name": "Thức ăn khô cho cho Catseye Hàn Quốc (1kg)",
-    "url": "thuc-an-kho-cho-cho-catseye-han-quoc-1kg",
+    "url": "/danh-cho-cho/thuc-an-kho-cho-cho-catseye-han-quoc-1kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -327,7 +327,7 @@
   {
     "id": 26,
     "name": "Thức ăn hạt mềm cho chó giống cho nhỏ Zenith Small Bread 1,2kg",
-    "url": "thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
+    "url": "/danh-cho-cho/thuc-an-hat-mem-cho-cho-giong-cho-nho-zenith-small-bread-1,2kg",
     "type": "danh-cho-cho",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -340,7 +340,7 @@
   {
     "id": 27,
     "name": "Sữa bột cho mèo Dr.Kyan Precaten 400g",
-    "url": "sua-bot-cho-meo-dr.kyan-precaten-400g",
+    "url": "/danh-cho-meo/sua-bot-cho-meo-dr.kyan-precaten-400g",
     "type": "danh-cho-meo",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",
@@ -353,7 +353,7 @@
   {
     "id": 28,
     "name": "Balo phi hành gia",
-    "url": "balo-phi-hanh-gia",
+    "url": "/danh-cho-cho/balo-phi-hanh-gia",
     "type": "danh-cho-cho",
     "category": "chuong-tui-long-van-chuyen",
     "subCategory": "balo-tui-van-chuyen",
@@ -366,7 +366,7 @@
   {
     "id": 29,
     "name": "Thức ăn khô cho mèo Catsrang Hàn Quốc 5kg",
-    "url": "thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
+    "url": "/danh-cho-meo/thuc-an-kho-cho-meo-catsrang-han-quoc-5kg",
     "type": "danh-cho-meo",
     "category": "thuc-an",
     "subCategory": "thuc-an-kho",
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "name": "Khay vệ sinh cho mèo",
-    "url": "khay-ve-sinh-cho-meo",
+    "url": "/danh-cho-meo/khay-ve-sinh-cho-meo",
     "type": "danh-cho-meo",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -392,7 +392,7 @@
   {
     "id": 31,
     "name": "Thảm lót vệ sinh nhựa dẻo",
-    "url": "tham-lot-ve-sinh-nhua-deo",
+    "url": "/danh-cho-cho/tham-lot-ve-sinh-nhua-deo",
     "type": "danh-cho-cho",
     "category": "ve-sinh",
     "subCategory": "dung-cu-ve-sinh",
@@ -405,7 +405,7 @@
   {
     "id": 32,
     "name": "Gel dinh dưỡng Nutri-Plus 100g",
-    "url": "gel-dinh-duong-nutri-plus-100g",
+    "url": "/danh-cho-cho/gel-dinh-duong-nutri-plus-100g",
     "type": "danh-cho-cho",
     "category": "y-te",
     "subCategory": "thuc-pham-chuc-nang",

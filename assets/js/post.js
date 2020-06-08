@@ -1,1 +1,2 @@
-const Post=props=>{return/*#__PURE__*/React.createElement("h1",null,"Trang b\xE0i vi\u1EBFt");};export default Post;
+const{useEffect}=React;const{useLocation}=ReactRouterDOM;const Post=props=>{// Set Page Title
+useEffect(()=>{document.title="Pety - Blog";});return/*#__PURE__*/React.createElement("h1",null,"Trang b\xE0i vi\u1EBFt");};export default Post;

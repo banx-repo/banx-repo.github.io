@@ -1,0 +1,217 @@
+[
+  { "to": "/", "text": "Trang chủ" },
+  {
+    "to": "/danh-cho-cho",
+    "text": "Dành cho chó",
+    "dropdown": [
+      {
+        "to": "/danh-cho-cho?loai=thuc-an",
+        "text": "Thức ăn",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=thuc-an-kho",
+            "text": "Thức ăn khô"
+          },
+          {
+            "to": "/danh-cho-cho?loai=thuc-an-uot",
+            "text": "Thức ăn ướt"
+          },
+          {
+            "to": "/danh-cho-cho?loai=snack-xuong-gam-banh-thuong",
+            "text": "Snack, xương gặm, bánh thưởng"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-cho?loai=phu-kien",
+        "text": "Phụ kiện",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=thoi-trang-phu-kien-lam-dep",
+            "text": "Thời trang, phụ kiện làm đẹp"
+          },
+          {
+            "to": "/danh-cho-cho?loai=day-dat-vong-co",
+            "text": "Dây dắt, vòng cổ"
+          },
+          {
+            "to": "/danh-cho-cho?loai=do-choi",
+            "text": "Đồ chơi"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-cho?loai=do-dung",
+        "text": "Đồ dùng",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=dung-cu-an-uong",
+            "text": "Dụng cụ ăn uống"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-cho?loai=ve-sinh",
+        "text": "Vệ sinh",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=dung-cu-ve-sinh",
+            "text": "Dụng cụ vệ sinh"
+          },
+          {
+            "to": "/danh-cho-cho?loai=ta-bim-lot-ve-sinh",
+            "text": "Tã, bỉm, lót vệ sinh"
+          },
+          {
+            "to": "/danh-cho-cho?loai=huan-luyen-ve-sinh",
+            "text": "Huấn luyện vệ sinh"
+          },
+          {
+            "to": "/danh-cho-cho?loai=sua-tam",
+            "text": "Sữa tắm"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-cho?loai=chuong-tui-long",
+        "text": "Chuồng, túi, lồng",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=nha-chuong-cho",
+            "text": "Nhà, chuồng chó"
+          },
+          {
+            "to": "/danh-cho-cho?loai=Túi, lồng vận chuyển",
+            "text": "Túi, lồng vận chuyển"
+          },
+          {
+            "to": "/danh-cho-cho?loai=balo-diu",
+            "text": "Balo, địu"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-cho?loai=y-te",
+        "text": "Y tế",
+        "subCategory": [
+          {
+            "to": "/danh-cho-cho?loai=thuoc-dieu-tri",
+            "text": "Thuốc điều trị"
+          },
+          {
+            "to": "/danh-cho-cho?loai=thuc-pham-chuc-nang",
+            "text": "Thực phẩm chức năng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "to": "/danh-cho-meo",
+    "text": "Dành cho mèo",
+    "dropdown": [
+      {
+        "to": "/danh-cho-meo?loai=thuc-an",
+        "text": "Thức ăn",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=thuc-an-kho",
+            "text": "Thức ăn khô"
+          },
+          {
+            "to": "/danh-cho-meo?loai=thuc-an-uot",
+            "text": "Thức ăn ướt"
+          },
+          {
+            "to": "/danh-cho-meo?loai=snack-xuong-gam-banh-thuong",
+            "text": "Snack, xương gặm, bánh thưởng"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-meo?loai=phu-kien",
+        "text": "Phụ kiện",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=thoi-trang-phu-kien-lam-dep",
+            "text": "Thời trang, phụ kiện làm đẹp"
+          },
+          {
+            "to": "/danh-cho-meo?loai=day-dat-vong-co",
+            "text": "Dây dắt, vòng cổ"
+          },
+          {
+            "to": "/danh-cho-meo?loai=do-choi",
+            "text": "Đồ chơi"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-meo?loai=do-dung",
+        "text": "Đồ dùng",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=dung-cu-an-uong",
+            "text": "Dụng cụ ăn uống"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-meo?loai=ve-sinh",
+        "text": "Vệ sinh",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=dung-cu-ve-sinh",
+            "text": "Dụng cụ vệ sinh"
+          },
+          {
+            "to": "/danh-cho-meo?loai=ta-bim-lot-ve-sinh",
+            "text": "Tã, bỉm, lót vệ sinh"
+          },
+          {
+            "to": "/danh-cho-meo?loai=huan-luyen-ve-sinh",
+            "text": "Huấn luyện vệ sinh"
+          },
+          {
+            "to": "/danh-cho-meo?loai=sua-tam",
+            "text": "Sữa tắm"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-meo?loai=chuong-tui-long",
+        "text": "Chuồng, túi, lồng",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=nha-chuong-cho",
+            "text": "Nhà, chuồng chó"
+          },
+          {
+            "to": "/danh-cho-meo?loai=Túi, lồng vận chuyển",
+            "text": "Túi, lồng vận chuyển"
+          },
+          {
+            "to": "/danh-cho-meo?loai=balo-diu",
+            "text": "Balo, địu"
+          }
+        ]
+      },
+      {
+        "to": "/danh-cho-meo?loai=y-te",
+        "text": "Y tế",
+        "subCategory": [
+          {
+            "to": "/danh-cho-meo?loai=thuoc-dieu-tri",
+            "text": "Thuốc điều trị"
+          },
+          {
+            "to": "/danh-cho-meo?loai=thuc-pham-chuc-nang",
+            "text": "Thực phẩm chức năng"
+          }
+        ]
+      }
+    ]
+  },
+  { "to": "/bai-viet", "text": "Bài viết" },
+  { "to": "/lien-he", "text": "Liên hệ" }
+]
